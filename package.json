@@ -6,7 +6,7 @@
   "author": "Pan <panfree23@gmail.com>",
   "scripts": {
     "dev": "node build/dev-server.js",
-    "start": "node build/dev-server.js",
+    "start": "nuxt",
     "build": "node build/build.js",
     "lint": "eslint --ext .js,.vue src",
     "test": "npm run lint"
@@ -17,7 +17,8 @@
     "js-cookie": "2.2.0",
     "normalize.css": "7.0.0",
     "nprogress": "0.2.0",
-    "vue": "2.5.9",
+    "nuxt": "^1.0.0-rc11",
+    "vue": "2.4.4",
     "vue-router": "3.0.1",
     "vuex": "3.0.1"
   },
